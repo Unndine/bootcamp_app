@@ -1,4 +1,4 @@
+<?php include "../bootcamp_app/components/navigation.php"; ?>
+<br>
 
-<h1>Contacts</h1>
-<?php
-include "../bootcamp_app/components/navigation.php"; 
+<h1>Kontaktu sadaļa</h1>

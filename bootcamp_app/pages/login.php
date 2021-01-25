@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="?page=authenticate&sid=<?php echo $sid;?>" method="post">
+    <form action="?page=authenticate&sid=<?php echo $sid;?>" method="post">
         <label>Lietotajs</label>
         <input type="text" name="username">
         <label>Parole</label>
@@ -12,6 +12,5 @@
 
         <button type="submit">Ieiet</button>
     </form>
-    
 </body>
 </html>

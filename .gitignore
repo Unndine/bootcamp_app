@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+*.json
+applications.html
+bitnami.css
+dashboard/
+favicon.ico
+img/
+xampp/

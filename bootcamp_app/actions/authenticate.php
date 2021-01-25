@@ -1,8 +1,9 @@
+
 <?php
 
-if (isset($_REQUEST['sid']) && 
+if (isset($_REQUEST['sid']) &&
     $_REQUEST['sid'] === $sid &&
-    isset($_REQUEST['username']) && 
+    isset($_REQUEST['username']) &&
     isset($_REQUEST['password']) &&
     $_REQUEST['username'] == "rubene" &&
     $_REQUEST['password'] == "123"
@@ -12,8 +13,6 @@ if (isset($_REQUEST['sid']) &&
 
     header("Location: index.php");
 }
-
 else {
-    header("Location: index.php?page=login.php");
-
+    header("Location: index.php?page=login");
 }
